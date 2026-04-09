@@ -3,7 +3,7 @@ const router = express.Router()
 const authController = require('../controller/auth.controller')
 
 
-//post method k saath api api/auth/register pe request aayegi to usko handle karega ye function
+//post method k saath api api/auth/register 
 router.post('/register', authController.userRegisterController)
 
 //login
